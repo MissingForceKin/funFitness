@@ -1,0 +1,65 @@
+body{
+  background-image: url(weightlifting.jpg);
+  color:white;
+}
+h1{
+  text-align:center;
+  background-color:black;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+p{
+  background-color:black;
+  text-align:right;
+}
+img{
+  width:300px;
+}
+table, th, tr, td{
+  border-style:solid;
+  background-color:gray;
+  opacity:.96;
+}
+.container{
+  color:black;
+  margin:auto;
+  width:50%;
+  background-color: #eeeeee;
+  padding:25px;
+  border-radius: 5px;
+}
+label{
+  display:block;
+  padding-bottom:5px;
+}
+input{
+  position:absolute;
+  left:34%;
+}
+h2{
+  text-align:center;
+}
